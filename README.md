@@ -147,29 +147,7 @@ You can test APIs using **Postman**.
 
 ---
 
-## 🧪 Common Errors & Fixes
 
-### ❌ Mongoose URI Undefined
-
-**Cause:** `.env` missing or variable name incorrect
-**Fix:** Ensure `MONGO_URI` exists and `dotenv` is used:
-
-```js
-import dotenv from "dotenv";
-dotenv.config();
-```
-
----
-
-### ❌ Port Already in Use
-
-Change the port in `.env`:
-
-```env
-PORT=5001
-```
-
----
 
 ## 🌟 Features
 
@@ -188,14 +166,6 @@ PORT=5001
 * User Profiles
 * Real-time Notifications
 * Deployment (AWS / Vercel)
-
----
-
-## 👨‍💻 Author
-
-**Akshat Totla**
-B.Tech | Full-Stack Developer
-Skills: JavaScript, Node.js, React, MongoDB, Java, Spring Boot
 
 ---
 
